@@ -8,7 +8,6 @@ info:
     verified: true
     shodan-query: http.html:"Apache Airflow"
   tags: tech,apache,airflow
-  mongoid: 0000
 
 requests:
   - method: GET
