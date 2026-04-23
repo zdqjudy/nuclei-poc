@@ -6,17 +6,12 @@ info:
   severity: medium
   description: The oEmbed feature in WordPress allows embedding content from external sources, and if it's not properly secured, it could be exploited for SSRF.
   reference:
-    - https://book.hacktricks.wiki/en/network-services-pentesting/pentesting-web/wordpress.html
+    - https://book.hacktricks.xyz/pentesting/pentesting-web/wordpress
     - https://github.com/incogbyte/quickpress/blob/master/core/req.go
-  classification:
-    cpe: cpe:2.3:a:wordpress:wordpress:*:*:*:*:*:*:*:*
-    cwe-id: CWE-918
   metadata:
     max-request: 2
-    vendor: wordpress
-    product: wordpress
     fofa-query: body="oembed" && body="wp-"
-  tags: wordpress,ssrf,oast,oembed,vuln
+  tags: wordpress,ssrf,oast,oembed
 
 http:
   - raw:
@@ -38,4 +33,4 @@ http:
         part: interactsh_protocol # Confirms the HTTP Interaction
         words:
           - "http"
-# digest: 490a00463044022066a9b4228b9c6b6338b043ad0f3d4f7f9f1c89a943e821ba2c721f01de03f6bd02202526c2f646821e6d7b989cfdbbb89308ed92f8bae20008a2a792347145227474:922c64590222798bb761d5b6d8e72950
+# digest: 4a0a00473045022100d01d8cb29dc06ed371272fb5eb94b0e4d93d1d9392e7d76a9aa9691b160c9f8302206e208f25527d7b4a7bb0578fff2e7d0ff119185620872124d38e02fe3d21c96a:922c64590222798bb761d5b6d8e72950
