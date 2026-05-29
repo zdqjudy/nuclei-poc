@@ -7,7 +7,6 @@ info:
   metadata:
     fallback:
     - get-request
-    - httpoptions
     product: comms_mundi
     rarity: 5
     vendor: wireless_mundi
