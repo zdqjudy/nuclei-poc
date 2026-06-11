@@ -5,16 +5,16 @@ info:
   severity: info
   author: darses
   description: |
-    Tools4Ever HelloID Authentication was detected.
+    Detects Tools4Ever HelloID Authentication server.
   metadata:
-    vendor: tools4ever
-    product: helloid
+    vendor: Tools4Ever
+    product: HelloID
     fofa-query:
       - title="HelloID -"
       - icon_hash="-726768224"
   reference:
     - https://www.tools4ever.com/helloid/
-  tags: detect,tech,tools4ever
+  tags: detect,tools4ever,tech
 
 http:
   - method: GET

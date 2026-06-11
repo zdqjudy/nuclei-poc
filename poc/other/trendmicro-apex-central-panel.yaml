@@ -1,15 +1,13 @@
 id: trendmicro-apex-central-panel
 
 info:
-  name: TrendMicro Apex Central - Panel
+  name: TrendMicro Apex Central Panel - Detect
   author: darses
   severity: info
   description: |
-    TrendMicro Apex Central login panel was detected.
+    Detects TrendMicro Apex Central Login Panel.
   metadata:
     max-request: 1
-    vendor: trendmicro
-    product: apex_central
   tags: detect,panel,trendmicro
 
 http:
