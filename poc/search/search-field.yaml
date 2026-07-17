@@ -2,12 +2,12 @@ id: search-field
 
 info:
   name: Search Field Detection Template
-  author: foulenzer
+  author: nithissh
   severity: info
   description: Searches Response body for input-tag and id= or name=
   tags: search,input
 
-requests:
+http:
   - method: GET
     redirects: true
     # max-redirects is max number of redirects to follow. Can be blank.
