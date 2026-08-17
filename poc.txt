@@ -267313,7 +267313,6 @@
 ./poc/php/phpstudy-backdoor-rce_1.yaml
 ./poc/php/phpstudy-nginx-wrong-resolve.yaml
 ./poc/php/phpstudy-nginx-wrong-resolve.yml
-./poc/php/phpstudy-rce.yaml
 ./poc/php/phpstudy-rce_1.yaml
 ./poc/php/phpstudy-xmlrpc-backdoor.yml
 ./poc/php/phpstudy.yaml
@@ -272583,7 +272582,6 @@
 ./poc/remote_code_execution/phpstudy-backdoor-rce.yaml
 ./poc/remote_code_execution/phpstudy-backdoor-rce.yml
 ./poc/remote_code_execution/phpstudy-backdoor-rce_1.yaml
-./poc/remote_code_execution/phpstudy-rce.yaml
 ./poc/remote_code_execution/phpstudy-rce_1.yaml
 ./poc/remote_code_execution/phpunit-cve-2017-9841-rce.yaml
 ./poc/remote_code_execution/pi-woocommerce-order-date-time-and-type-a44345779387d191aa1fdac0be1e3bd0.yaml
