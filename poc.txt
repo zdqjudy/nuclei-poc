@@ -21761,6 +21761,7 @@
 ./poc/cve/CVE-2005-2428-1311.yaml
 ./poc/cve/CVE-2005-2428-1311_1.yaml
 ./poc/cve/CVE-2005-2428-1314.yaml
+./poc/cve/CVE-2005-2428.yaml
 ./poc/cve/CVE-2005-2428_1.yaml
 ./poc/cve/CVE-2005-2428_10.yaml
 ./poc/cve/CVE-2005-2428_11.yaml
@@ -21783,7 +21784,6 @@
 ./poc/cve/CVE-2005-2428_27.yaml
 ./poc/cve/CVE-2005-2428_28.yaml
 ./poc/cve/CVE-2005-2428_29.yaml
-./poc/cve/CVE-2005-2428_3.yaml
 ./poc/cve/CVE-2005-2428_30.yaml
 ./poc/cve/CVE-2005-2428_31.yaml
 ./poc/cve/CVE-2005-2428_32.yaml
@@ -88285,7 +88285,6 @@
 ./poc/cve/CVE-2023-25803.yaml
 ./poc/cve/CVE-2023-25804.yaml
 ./poc/cve/CVE-2023-25812.yaml
-./poc/cve/CVE-2023-25826.yaml
 ./poc/cve/CVE-2023-2584-03effd6c50c292ca7a85f74dc9e529fe.yaml
 ./poc/cve/CVE-2023-2584-62732d21ff15b23a1ed5eae204261c96.yaml
 ./poc/cve/CVE-2023-2584-pixelyoursite-5ebf1e83-50b8-4f56-ba76-10100375edda.yaml
@@ -109571,7 +109570,6 @@
 ./poc/cve/CVE-2024-1698-notificationx-e110ea99-e2fa-4558-bcf3-942a35af0b91.yaml
 ./poc/cve/CVE-2024-1698_1.yaml
 ./poc/cve/CVE-2024-1698_2.yaml
-./poc/cve/CVE-2024-1708.yaml
 ./poc/cve/CVE-2024-1709_1.yaml
 ./poc/cve/CVE-2024-1709_2.yaml
 ./poc/cve/CVE-2024-1709_3.yaml
@@ -151376,6 +151374,7 @@
 ./poc/cve/CVE-2026-4091-open_brain-93df6480-9bb1-4f5d-bb39-ff1a01d739cf.yaml
 ./poc/cve/CVE-2026-4094-woocommerce_currency_switcher-6eb9d68c-c081-484e-ad5d-5eabcfa6d6f0.yaml
 ./poc/cve/CVE-2026-4100-paid_memberships_pro-5b333a3d-e416-42aa-9722-5406df0a64b3.yaml
+./poc/cve/CVE-2026-41042.yaml
 ./poc/cve/CVE-2026-4106-ht_mega_for_elementor-e533f20e-825b-443c-93b2-cf451284ae96.yaml
 ./poc/cve/CVE-2026-4109-wp_event_solution-87f82d5d-d89a-440d-8c23-ace5160a0739.yaml
 ./poc/cve/CVE-2026-4110-ultimate_woocommerce_auction_pro-f4daf910-1768-4cfd-af92-66a2ee7f52a5.yaml
@@ -182494,7 +182493,7 @@
 ./poc/other/191218699.yaml
 ./poc/other/1912527454_1.yaml
 ./poc/other/1912527454_2.yaml
-./poc/other/1913107877.yaml
+./poc/other/1913107877_1.yaml
 ./poc/other/1913604982.yaml
 ./poc/other/1913930949.yaml
 ./poc/other/1914402596.yaml
@@ -224376,6 +224375,7 @@
 ./poc/other/konzept-theme.yaml
 ./poc/other/kopatheme-aa16ab9f-4fb1-43de-bfbb-bd6caf6a68dc.yaml
 ./poc/other/kopatheme-aecf92ba128e924b74430328c78b4a69.yaml
+./poc/other/kopia.yaml
 ./poc/other/korea-sns-d2347b23afcb3c3e5e83785525a060c3.yaml
 ./poc/other/korea_sns-185d380e-7e23-4260-bdeb-e88c8625f690.yaml
 ./poc/other/korea_sns-51d07d2a-74e6-499e-8d66-90893faedeaf.yaml
