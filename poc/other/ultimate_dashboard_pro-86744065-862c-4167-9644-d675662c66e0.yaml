@@ -1,8 +1,8 @@
-id: ultimate_dashboard-86744065-862c-4167-9644-d675662c66e0
+id: ultimate_dashboard_pro-86744065-862c-4167-9644-d675662c66e0
 
 info:
   name: >
-    Ultimate Dashboard – Custom WordPress Dashboard <= 3.11.2 - Unauthenticated Stored Cross-Site Scripting
+    Ultimate Dashboard Pro <= 3.11.2 - Unauthenticated Stored Cross-Site Scripting
   author: topscoder
   severity: high
   description: >
@@ -15,17 +15,17 @@ info:
     cvss-score: 
     cve-id: 
   metadata:
-    fofa-query: "wp-content/plugins/ultimate-dashboard/"
-    google-query: inurl:"/wp-content/plugins/ultimate-dashboard/"
-    shodan-query: 'http.html:"wp-content/plugins/ultimate-dashboard/"'
-  tags: cve,wordpress,wp-plugin,ultimate-dashboard,high,candidate
+    fofa-query: "wp-content/plugins/ultimate-dashboard-pro/"
+    google-query: inurl:"/wp-content/plugins/ultimate-dashboard-pro/"
+    shodan-query: 'http.html:"wp-content/plugins/ultimate-dashboard-pro/"'
+  tags: cve,wordpress,wp-plugin,ultimate-dashboard-pro,high,candidate
 
 http:
   - method: GET
     redirects: true
     max-redirects: 3
     path:
-      - "{{BaseURL}}/wp-content/plugins/ultimate-dashboard/readme.txt"
+      - "{{BaseURL}}/wp-content/plugins/ultimate-dashboard-pro/readme.txt"
 
     extractors:
       - type: regex
@@ -43,7 +43,7 @@ http:
 
       - type: word
         words:
-          - "ultimate-dashboard"
+          - "ultimate-dashboard-pro"
         part: body
 
       - type: dsl
