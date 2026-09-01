@@ -161027,7 +161027,6 @@
 ./poc/detect/froxlor-detect-7554.yaml
 ./poc/detect/froxlor-detect.yaml
 ./poc/detect/fuji-xerox-printer-detect.yaml
-./poc/detect/gargoyle-router-detect.yaml
 ./poc/detect/gaspot-honeypot-detect.yaml
 ./poc/detect/gaspot-honeypot-detection.yaml
 ./poc/detect/genetec-synergis-detect.yaml
