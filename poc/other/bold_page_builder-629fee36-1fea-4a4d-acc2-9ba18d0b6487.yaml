@@ -1,15 +1,15 @@
-id: bold_page_builder-38a3b3bf-9538-4ae8-9da4-d4b48805763b
+id: bold_page_builder-629fee36-1fea-4a4d-acc2-9ba18d0b6487
 
 info:
   name: >
-    Bold Page Builder <= 5.6.1 - Authenticated (Contributor+) Stored Cross-Site Scripting via bt_bb_accordion_item Shortcode
+    Bold Page Builder <= 5.9.6 - Authenticated (Contributor+) Stored Cross-Site Scripting via 'shortcode_content' Parameter
   author: topscoder
   severity: low
   description: >
     
   reference:
     - https://github.com/topscoder/nuclei-wordfence-cve
-    - https://www.wordfence.com/threat-intel/vulnerabilities/id/38a3b3bf-9538-4ae8-9da4-d4b48805763b?source=api-scan
+    - https://www.wordfence.com/threat-intel/vulnerabilities/id/629fee36-1fea-4a4d-acc2-9ba18d0b6487?source=api-scan
   classification:
     cvss-metrics: 
     cvss-score: 
@@ -48,4 +48,4 @@ http:
 
       - type: dsl
         dsl:
-          - compare_versions(version, '<= 5.6.1')
+          - compare_versions(version, '<= 5.9.6')
