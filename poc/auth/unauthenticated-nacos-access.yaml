@@ -8,11 +8,9 @@ info:
   reference:
     - https://github.com/alibaba/nacos/issues/4593
     - https://nacos.io/en-us/docs/auth.html
-  tags: nacos,unauth,misconfig
-  metadata:
-    max-request: 2
+  tags: nacos,unauth
 
-http:
+requests:
   - method: GET
     path:
       - "{{BaseURL}}/nacos/v1/auth/users?pageNo=1&pageSize=9"
@@ -38,3 +36,5 @@ http:
       - type: status
         status:
           - 200
+
+# Enhanced by mp on 2022/05/20
